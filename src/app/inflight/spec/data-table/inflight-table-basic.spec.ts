@@ -1,7 +1,7 @@
-import {InflightTable} from './inflight-table';
-import {InFlightState} from './inflight-state';
-import {genMockData} from './gen-mock-data.spec';
-import {PagedResults} from '../interfaces/paged-results';
+import {InflightTable} from '../../inflight-table';
+import {InFlightState} from '../../inflight-state';
+import {genMockData} from '../../gen-mock-data.spec';
+import {PagedResults} from '../../../interfaces/paged-results';
 
 describe('InFlight table Basic', () => {
   beforeEach(() => {
